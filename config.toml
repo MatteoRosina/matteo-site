@@ -70,11 +70,11 @@ style = "github-dark"
   url = "mailto:matteo.rosina@gmail.com"
 
 # Menu links
-#[[menu.main]]
-#  name = "Projects"
-#  weight = 1
-#  url  = "projects/"
-#[[menu.main]]
-#  name = "About"
-#  weight = 2
-#  url = "about/"
+[[menu.main]]
+  name = "Projects"
+  weight = 1
+  url  = "projects/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
