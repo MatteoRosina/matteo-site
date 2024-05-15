@@ -1,7 +1,10 @@
 ---
 title: "Projects"
-date: 2024-05-15T00:07:34+02:00
 ---
 
-* Wedding app: https://monica-matteo.web.app/
+* **Wedding app** (Flutter app used as invitation and as a photo sharing opportunity):
+https://monica-matteo.web.app/
+
+ * **Gestione Corsi CAI** (Flutter app created to manage courses, instructors and attendance of a local group of the Club Alpino Italiano)
+ https://gestione-corsi-cai.web.app/
 
