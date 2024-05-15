@@ -1,1 +1,80 @@
-theme = 'hugo-coder'
+baseurl = "https://www.matteorosina.it/"
+title = "Matteo Rosina"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+[services]
+[services.disqus]
+#disqusShortname = "yourdiscussshortname"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Matteo Rosina"
+  info = "Software developer, specialized in SAP developments and integrations, but also with an interest on Flutter and Web3"
+  description = "Matteo Rosina's personal website"
+  keywords = "sap,developer,personal"
+  avatarurl = "images/avatar.jpg"
+  #gravatar = "john.doe@example.com"
+
+  #faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/images/MR.png"
+  #favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2024
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Linkedin"
+  icon = "fa-brands fa-linkedin fa-2x"
+  weight = 1
+  url = "https://www.linkedin.com/in/matteo-rosina-307606143/"
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/matteorosina/"
+#[[params.social]]
+#  name = "Gitlab"
+#  icon = "fa-brands fa-gitlab fa-2x"
+#  weight = 2
+#  url = "https://gitlab.com/johndoe/"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa-brands fa-x-twitter fa-2x"
+  weight = 3
+  url = "https://twitter.com/matteo_rosina/"
+[[params.social]]
+  name = "E-Mail"
+  icon = "fa-free fa-at fa-2x"
+  weight = 3
+  url = "mailto:matteo.rosina@gmail.com"
+
+# Menu links
+[[menu.main]]
+  name = "Projects"
+  weight = 1
+  url  = "projects/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"

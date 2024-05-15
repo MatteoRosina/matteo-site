@@ -1,4 +1,4 @@
-baseurl = "https://www.matteorosina.it"
+baseurl = "https://www.matteorosina.it/"
 title = "Matteo Rosina"
 theme = "hugo-coder"
 languagecode = "en"
